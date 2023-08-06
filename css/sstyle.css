@@ -1,0 +1,178 @@
+body {
+      background-image: url(/picks/chernoe-zvezdnoe-nebo-oboi-oboi-1.jpg);
+      background-repeat: no-repeat fixed;
+      background-size: contain;
+      background-position: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+
+.top_img {
+      width: 100%;
+      height: 400px;
+}
+
+div {
+      background-color: #3b3b3b;
+      width: 70%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 24px;
+      line-height: 35px;
+      font-weight: 400;
+}
+
+p {
+      margin: 5px 20px;
+      font-size: 24px;
+      font-weight: 400;
+      color: rgb(228, 220, 211);
+}
+
+
+h1,
+h2,
+h3,
+ul {
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      margin: 1.5em 20px 10px 20px;
+      color: rgb(228, 220, 211);
+}
+
+.right {
+      float: right;
+      margin: 10px 20px 10px 10px;
+      font-style: italic;
+      color: rgb(228, 220, 211);
+}
+
+.left {
+      float: left;
+      margin: 10px 10px 10px 20px;
+      font-style: italic;
+      color: rgb(228, 220, 211);
+}
+
+img {
+      height: 200px;
+      width: 200px;
+}
+
+table {
+      border: 1px double rgb(90, 89, 89);
+      width: 60%;
+      border-collapse: separate;
+      margin: auto;
+      text-align: center;
+}
+
+th {
+      background: #cfcfcf;
+      padding: 5px;
+      border: 1px solid rgb(90, 89, 89);
+}
+
+td {
+      padding: 5px;
+      border: 1px solid rgb(90, 89, 89);
+      color: rgb(228, 220, 211);
+}
+
+blockquote {
+      color: rgb(228, 220, 211);
+}
+
+li, a {
+      color:rgb(194, 208, 221);
+}
+
+figcaption {
+      width: 180px;
+}
+
+caption {
+      color: rgb(207, 186, 68);
+      margin: 10px 0 10px 0;
+}
+
+.table_section {
+      display: flex;
+      justify-content: center;
+}
+/*shapka*/
+
+.thg {
+      color: white;
+  }
+  
+  .wraper {
+      max-width: 1110px;
+      /*max-height: 84px;*/
+      margin: 0 auto;
+  }
+  
+  li {
+      list-style-type: none;
+  }
+  
+.header {
+      z-index: 1;
+      position: fixed;
+      width:100%;
+      height: 74px;
+      left: 0px;
+      top: 0px;
+      background-color:rgb(79, 57, 158);
+      box-shadow: 0px 5px 10px 2px rgb(39, 39, 39);
+    }
+  
+.header_wraper {
+      display: flex;
+      flex-wrap: wrap;
+      height: 74px;
+      align-items: first center;
+      justify-content: end;
+  }
+  
+  .header_list {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .header_item {
+      margin-right: 5px;
+  }
+  
+  .header_item:last-child {
+      margin-right: 0;
+  }
+  
+  .header_logo_pic {
+      align-items: first center;
+      width: 70%;
+      transition: 0.2s linear;
+      margin-left: 55px;
+  }
+  
+  .header_logo_pic:hover {
+      width: 80%;
+  }
+  
+  .header_logo {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  
+  .header_link {
+      color: white;
+      font-size: 17px;
+      line-height: 22px;
+      text-decoration: none;
+      transition: 0.2s linear;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active {
+      opacity: .75;
+      color: rgb(39, 235, 114);
+      font-size: 18px;
+  }

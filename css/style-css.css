@@ -1,0 +1,321 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+*::-webkit-scrollbar {
+    width: 0.7em;
+    height: 0.7em;
+}
+  *::-webkit-scrollbar-thumb {
+    background-color: #29917a;
+    border-radius: 10px;
+}
+  *::-webkit-scrollbar-track {
+    background-color: #d1ae91;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    min-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; 
+}
+
+/*header style start*/
+.thg {
+    color: white;
+}
+
+.wraper {
+    max-width: 1110px;
+    /*max-height: 84px;*/
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    z-index: 1;
+    position: fixed;
+    width:100%;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+    background-color:#007765;
+    box-shadow: 0px 5px 10px 2px rgb(39, 39, 39);
+  }
+
+.header_wraper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 74px;
+    align-items: first center;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 5px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_logo_pic {
+    align-items: first center;
+    width: 70%;
+    transition: 0.2s linear;
+    margin-left: 55px;
+}
+
+.header_logo_pic:hover {
+    width: 80%;
+}
+
+.header_logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.header_link {
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: .75;
+    color: rgb(39, 235, 114);
+    font-size: 18px;
+}
+
+/*header style end*/
+
+/*section1 style start*/
+.section_1 {
+    display: flex;
+    flex-direction: column;
+}   
+
+.pic_text {
+    color: white;
+    position: relative;
+    font-size: 75px;
+    transition: 0.3s linear;
+}
+
+.pic_text:hover {
+    font-size: 85px;
+    background-size: cover;
+    margin-top: 74px;
+    transition: 0.3s;
+}
+
+.h1_text {
+    color: rgb(36, 235, 205);
+}
+.bg_top {
+    display: flex;
+    background: url(/picks/Nature___Mountains.png) no-repeat center;
+    height: 650px;
+    background-size: cover;
+    margin-top: 74px;
+    transition: 0.5s linear 1s;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_top:hover {
+    background: url(/picks/Nature_fuji.png) no-repeat center;
+    transition: 0.5s linear 1s;
+    background-size: cover;
+}
+
+/*section1 style end*/
+
+/*section2 style start*/
+
+.section_2 {
+    background-color: #3d3d3d;
+    padding-top: 75px;
+    padding-bottom: 95px;
+    color: white;
+    height: 719px;
+    display: flex;
+}
+
+.intro_title,
+.section_4_head,
+.section_5_head {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 70px;
+    color: rgb(36, 235, 205);
+}
+
+.text_section_2,
+.text_section_4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+/*section2 style end*/
+
+/*section3 style start*/
+
+.section_3_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/picks/super-computer.png.jpg) no-repeat center;
+    height: 403px;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.text_section_3 {
+    font-style: italic;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    width: 900px;
+  }
+
+/*section3 style end*/
+
+/*section4 style start*/
+
+
+.bg_section_4 {
+    background-color: #3d3d3d;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 75px;
+    height: 604px;
+    display: flex;
+}
+
+.button_1 {
+    width: 115px;
+    height: 115px;
+    padding: 0;
+    margin: 0;
+    border-radius: 57.5px;
+    border-style: none;
+    box-shadow: 5px 5px 5px #007765;
+    float: left;
+    margin-right: 40px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    outline: none;
+  }
+
+  .button_1:hover {
+    box-shadow: 5px 5px 1px rgba(36, 235, 205, 0.5);
+  }
+
+  .button_1:active {
+    box-shadow: none;
+    transform: translateY(5px) translateX(5px);
+  }
+
+
+/*section4 style end*/
+
+/*section5 style start*/
+
+.img {
+    width: 350px; /*Устанавливает ширину содержимого элемента*/
+    height: 283px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    flex-flow: column wrap;
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+  }
+
+.name {
+    font-weight: 700; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    line-height: 28px; /*Задаёт высоту строки текста*/
+    color:rgb(36, 235, 205); /*Определяет цвет текста элемента*/
+}
+
+.job_title {
+    color: white;
+    font-size: large;
+}
+
+.figure {
+    margin: 0; /*Расстояние от края элемента до края другог элемента*/
+    padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foto {
+    width: 168px; /*Устанавливает ширину содержимого элемента*/
+    height: 168px; /*Устанавливает высоту содержимого элемента*/
+}
+
+.section_5_bg {
+    background: url(/picks/listva.jpg) no-repeat center;
+    padding-top: 45px;
+    height: 700px;
+    display: flex;
+}
+
+.footer {
+    background-color: #333; /*Определяет цвет фона элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  }
+  /*Подвал сайта*/
+  
+.text { 
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    color: #b8b2b2; /*Определяет цвет текста элемента*/
+    font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+
+}
+
+.text_footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*section5 style end*/
